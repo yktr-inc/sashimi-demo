@@ -1,7 +1,5 @@
-import Sashimi from 'sashimi';
+import Sashimi from '/node_modules/sashimi/lib/index.js';
+import { Main } from '/src/components/Main.js';
 
-const child2 = Sashimi.createElement('div', null, 'Mais ouesh frr', 'lol', 'mdr');
-const child1 = Sashimi.createElement('div', null, 'Mais ouesh frr', 'lol', 'mdr');
-const parent = Sashimi.createElement('p', null, child1, child2);
-const helloWorld = Sashimi.createElement('div', null, parent);
-Sashimi.render(helloWorld, document.getElementById('root'));
+const Root = Sashimi.createElement('div', null, Main);
+Sashimi.renderRoot(Root);

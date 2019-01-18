@@ -4,10 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "./node_modules/.bin/nodemon server.js"
+    "dev": "./node_modules/.bin/nodemon server.js",
+    "serve": "./node_modules/.bin/http-server"
   },
   "dependencies": {
     "dotenv": "^6.2.0",
+    "http-server": "^0.11.1",
     "sashimi": "yktr-inc/sashimi#master"
   },
   "author": "",
