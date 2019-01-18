@@ -1,0 +1,15 @@
+{
+  "name": "sashimi-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "sashimi": "yktr-inc/sashimi#master"
+  },
+  "author": "",
+  "license": "ISC"
+}
