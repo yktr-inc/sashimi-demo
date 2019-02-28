@@ -10,7 +10,7 @@
   "dependencies": {
     "dotenv": "^6.2.0",
     "http-server": "^0.11.1",
-    "sashimi": "yktr-inc/sashimi#master"
+    "sashimi": "yktr-inc/sashimi"
   },
   "author": "",
   "license": "ISC",

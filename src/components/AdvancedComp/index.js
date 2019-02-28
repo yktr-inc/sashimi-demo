@@ -1,3 +1,3 @@
-import Sashimi from '/node_modules/sashimi/lib/index.js';
+import { createElement } from '/node_modules/sashimi/lib/utils/sashimi.js';
 
-export const Advanced = () => Sashimi.createElement('div', { class: 'lol', id: 1}, 'Toto')
+export const AdvancedComponent = () => createElement('a', { href: 'http://localhost:8080/src/static/#/user'}, 'SALUT MEC')

@@ -1,1 +1,1 @@
-export const mySimpleComponent = () => '<h1>Hello World</h1>';
+export const mySimpleComponent = () => 'Hello World';
