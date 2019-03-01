@@ -5,9 +5,11 @@
   "main": "index.js",
   "scripts": {
     "dev": "./node_modules/.bin/nodemon server.js",
-    "serve": "./node_modules/.bin/http-server"
+    "serve": "./node_modules/.bin/http-server",
+    "build": "node ./node_modules/sashimi/lib/utils/builder.js components-to-parse"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "dotenv": "^6.2.0",
     "http-server": "^0.11.1",
     "sashimi": "yktr-inc/sashimi"
